@@ -64,7 +64,7 @@ class MovieItem extends React.Component {
         <p>{vote_average}</p>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <button type="button" onClick={this.toggleOverview}>
-            {this.state.show ? "hide" : "show"}
+            {this.state.show ? "Hide" : "Show"}
           </button>
           <button
             type="button"
